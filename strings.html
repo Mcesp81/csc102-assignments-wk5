@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--csc102: 0ct2023 
+        Marco Cespedes
+        mcespedes81068@uat.edu.com-->
+<!--Input validation and Pallindrome assignments-->
+
+<!--11/6/2023
+Adding audio to page of a dragon roar + fire breath-->
+
+<head>
+    <!--link to js file string code for html operation-->
+    <script src="stringcode.js"></script>
+    <!--link to css file for user friendly appareance-->
+    <link rel="stylesheet" href="stringsStyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--tile of site page-->
+    <title>Input Validation</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to my Strings</h1>
+    </header>
+    <nav>
+        <h2>
+            Navigation
+        </h2>
+        <a href="./index.html"> Home</a><br>
+        <a href="./boards.html"> Boards</a><br>
+        <a href="./game.html"> Games</a><br>
+        <a href="./strings.html"> Strings</a><br>
+        <a href="/table.html"> Table</a><br>
+    </nav>
+    <h2>Input valadation</h2>
+    <!--display of succesful data input-->
+    <div id="loginstatus"> Submit to Login</div>
+    <p>
+        Sumbit Data for Validation
+    </p>
+    <!--input area of where to put credantials for verification-->
+    <form id="creditSubmit" onsubmit="return false">
+        First Name:<input type="text" id="fName"><br>
+        Last Name:<input type="text" id="lName"><br>
+        Zipcode:<input type="text" id="zipcode"><br>
+        <br>
+        <input type="submit" onclick="checkcreds();">
+    </form>
+    <br>
+    <br>
+    <h2>Palindrome check</h2>
+    <br>
+    <!--dispaly of true or false on palindrome checker-->
+    <div id="palinstatus">Palindrome Status</div>
+    <br>
+    <!--input area for possible palindrome-->
+    <form id="palinsubmit" onsubmit="return false">
+        Enter possible Palindrome: <input type="text" id="palininput"><br>
+        <br>
+        <input type="submit" onclick="checkpalin();">
+    </form>
+    <br>
+    <br>
+    <br>
+    <!--Audio playback section-->
+    <h2> Play</h2>
+    <button onclick="playsound();">Press to hear our Pet</button>
+    <br>
+    <br>
+    <p>
+        <div id="dragonImage">
+            <img src="th.jpg">
+        </div>
+        </p>
+    <br>
+    <br>
+    <footer>
+        Marco Cespedes<br>
+        University of advancing Technology<br>
+        2625 W. Baseline Road<br>
+        Tempe, AZ 85283-1056<br>
+        <br>
+        (602) 383-8228<br>
+    </footer>
+</body>
+
+</html>

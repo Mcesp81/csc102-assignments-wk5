@@ -1,0 +1,18 @@
+body {
+    background-color: burlywood;
+    color: darkgreen;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+}
+
+nav {
+    height: 1000px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+Header {
+    text-align: center;
+}

@@ -1,0 +1,17 @@
+body {
+    background-color: orange;
+    color: purple;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+    height: 1000px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+Header {
+    text-align: center;
+}

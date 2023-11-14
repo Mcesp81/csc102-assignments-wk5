@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="tableStyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<!--11/13/2023
+    Created tables page and added it to nav link-->
+
+<body>
+    <header>
+        <h1>Welcome to Table page</h1>
+    </header>
+    <nav>
+        <h2>
+            Navigation
+        </h2>
+        <a href="./index.html"> Home</a><br>
+        <a href="./boards.html"> Boards</a><br>
+        <a href="./game.html"> Games</a><br>
+        <a href="./strings.html"> Strings</a><br>
+        <a href="/table.html"> Table</a><br>
+    </nav>
+    <br>
+    <!--Style in html instaed of a css-->
+    <style>
+        table {
+            border: 1px solid black;
+            text-align: center;
+            padding: 8px
+        }
+    </style>
+    <h3>
+        Current Top 4 Trading Card Games
+    </h3>
+    <!--table with data regarding information chosen-->
+    <table style="width:60%;">
+        <colgroup>
+            <col span="1" style="width:25%;">
+            <col span="1" style="width:25%;">
+            <col span="1" style="width:50%;">
+        </colgroup>
+        <tr>
+            <th>Name</th>
+            <th>Year first Released</th>
+            <th>Back of card</th>
+        </tr>
+        <th>1. Magic The Gathering</th>
+        <th>1993</th>
+        <th> <img id="Image" src="magicThegathering.jpg"></th>
+        <tr>
+            <th>2. Pokemon</th>
+            <th>1996</th>
+            <th><img id="Image" src="pokemon.jpg"></th>
+        </tr>
+        <tr>
+            <th>3. Yu-gi-Oh</th>
+            <th>1999</th>
+            <th> <img id="Image" src="yugioh.jpg"></th>
+        </tr>
+        <tr>
+            <th>4. Flesh and Blood</th>
+            <th>2019</th>
+            <th> <img id="Image" src="fleshAndblood.jpg"></th>
+        </tr>
+    </table>
+    <br>
+    Table Reference--https://cardgamer.com/games/best-trading-card-games/
+    <br>
+    <br>
+    <footer>
+        Marco Cespedes<br>
+        University of advancing Technology<br>
+        2625 W. Baseline Road<br>
+        Tempe, AZ 85283-1056<br>
+        <br>
+        (602) 383-8228<br>
+    </footer>
+</body>
+
+</html>

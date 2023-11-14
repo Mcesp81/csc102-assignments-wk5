@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Link for js file to the html-->
+    <script src="gamecode.js"></script>
+    <link rel="stylesheet" href="gamestyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Gaming title-->
+    <title>Cespedes Games</title>
+</head>
+
+<body>
+    <header>
+        <h1>Greetings</h1><!--Header text with Welcoming to page-->
+    </header>
+    <nav>
+        <h2>
+            Navigation
+        </h2>
+        <a href="./index.html"> Home</a><br>
+        <a href="./boards.html"> Boards</a><br>
+        <a href="./game.html"> Games</a><br>
+        <a href="./strings.html"> Strings</a><br>
+        <a href="/table.html"> Table</a><br>
+    </nav>
+    <h2>Welcome stranger, have a go at this friendly game of craps!</h2>
+    <p><img src="OIP.jpg"></p>
+    <br>
+    <br>
+    <br>
+    <h2> Chance to win a round of Ale or pay 4 cp(copper pieces) </h2>
+    <br>
+    <br>
+    <!--Display for where results from js file will be located-->
+    Die 1 : <div id="die1res"> Press play to start Craps</div><br>
+    Die 2 : <div id="die2res"> Press play to start Craps</div><br>
+    Dice Sum: <div id="Sumres"> Press play to start Craps</div><br>
+    Game Result: <div id="gameres"> Press play to start Craps</div><br>
+    <!--Button Allows for interaction to linked js file -->
+    <button onclick="playcraps();">PLAY</button><br>
+    <br>
+    <br>
+    <!--Audio playback section-->
+    <h3> Play This if you Win</h3>
+    <button onclick="playsound();"> Blissful sound</button>
+    <br>
+    <h3> Play This if you Lose</h3>
+    <button onclick="playsound2();"> Hurtful sound</button>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer>
+        Marco Cespedes<br>
+        University of advancing Technology<br>
+        2625 W. Baseline Road<br>
+        Tempe, AZ 85283-1056<br>
+        <br>
+        (602) 383-8228<br>
+    </footer>
+</body>
+
+</html>

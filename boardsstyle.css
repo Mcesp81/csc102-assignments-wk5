@@ -1,0 +1,17 @@
+body {
+    background-color:lightgreen;
+    color:darkslategrey;
+    font: icon;
+}
+
+nav {
+    height: 14000px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+Header {
+    text-align: center;
+}
